@@ -54,4 +54,10 @@
 ;; they are implemented.
 
 (load! "~/.doom.d/smartparens-keys.el")
-(load! "~/.doom.d/ligatures.el")
+;; (load! "~/.doom.d/clojure.el")
+;; (load! "~/.doom.d/ligatures.el")
+
+; (add-to-list 'load-path "~/Documents/Projects/bqn/BQN/editors/emacs")
+; (require 'bqn-mode)
+
+;; The End
