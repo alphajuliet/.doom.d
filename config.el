@@ -35,6 +35,9 @@
 ;; numbers are disabled. For relative line numbers, set this to `relative'.
 (setq display-line-numbers-type t)
 
+;; Set default window size to maximised
+;; (add-hook 'window-setup-hook #'toggle-frame-maximized)
+(add-hook 'window-setup-hook #'toggle-frame-fullscreen)
 
 ;; Here are some additional functions/macros that could help you configure Doom:
 ;;
@@ -54,10 +57,5 @@
 ;; they are implemented.
 
 (load! "~/.doom.d/smartparens-keys.el")
-;; (load! "~/.doom.d/clojure.el")
-;; (load! "~/.doom.d/ligatures.el")
-
-; (add-to-list 'load-path "~/Documents/Projects/bqn/BQN/editors/emacs")
-; (require 'bqn-mode)
 
 ;; The End
