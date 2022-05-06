@@ -17,6 +17,9 @@
  '(pdf-view-midnight-colors (cons "#F8F8F2" "#272822"))
  '(rustic-ansi-faces
    ["#272822" "#E74C3C" "#A6E22E" "#E6DB74" "#268bd2" "#F92660" "#66D9EF" "#F8F8F2"])
+ '(safe-local-variable-values
+   '((cider-shadow-cljs-default-options . "app")
+     (cider-default-cljs-repl . shadow)))
  '(vc-annotate-background "#272822")
  '(vc-annotate-color-map
    (list
