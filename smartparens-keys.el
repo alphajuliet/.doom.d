@@ -7,8 +7,8 @@
  ("C-M-a" . sp-beginning-of-sexp)
  ("C-M-e" . sp-end-of-sexp)
 
- ("C-<down>" . sp-down-sexp)
- ("C-<up>"   . sp-up-sexp)
+ ;("C-<down>" . sp-down-sexp)
+ ;("C-<up>"   . sp-up-sexp)
  ;("M-<down>" . sp-backward-down-sexp)
  ;("M-<up>"   . sp-backward-up-sexp)
 
@@ -18,8 +18,8 @@
  ("C-M-n" . sp-next-sexp)
  ("C-M-p" . sp-previous-sexp)
 
- ("C-S-f" . sp-forward-symbol)
- ("C-S-b" . sp-backward-symbol)
+ ;("C-S-f" . sp-forward-symbol)
+ ;("C-S-b" . sp-backward-symbol)
 
  ("C-<right>" . sp-forward-slurp-sexp)
  ("M-<right>" . sp-forward-barf-sexp)
