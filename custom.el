@@ -6,7 +6,7 @@
  '(ansi-color-names-vector
    ["#272822" "#E74C3C" "#A6E22E" "#E6DB74" "#268bd2" "#F92660" "#66D9EF" "#F8F8F2"])
  '(custom-safe-themes
-   '("f302eb9c73ead648aecdc1236952b1ceb02a3e7fcd064073fb391c840ef84bca" "e19ac4ef0f028f503b1ccafa7c337021834ce0d1a2bca03fcebc1ef635776bea" "b0e446b48d03c5053af28908168262c3e5335dcad3317215d9fdeb8bac5bacf9" default))
+   '("2dd4951e967990396142ec54d376cced3f135810b2b69920e77103e0bcedfba9" "f302eb9c73ead648aecdc1236952b1ceb02a3e7fcd064073fb391c840ef84bca" "e19ac4ef0f028f503b1ccafa7c337021834ce0d1a2bca03fcebc1ef635776bea" "b0e446b48d03c5053af28908168262c3e5335dcad3317215d9fdeb8bac5bacf9" default))
  '(exwm-floating-border-color "#3c3d38")
  '(fci-rule-color "#555556")
  '(highlight-tail-colors ((("#333a23") . 0) (("#2d3936") . 20)))
