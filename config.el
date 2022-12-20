@@ -25,7 +25,7 @@
 ;; There are two ways to load a theme. Both assume the theme is installed and
 ;; available. You can either set `doom-theme' or manually load a theme with the
 ;; `load-theme' function. This is the default:
-(setq doom-theme 'doom-dracula)
+(setq doom-theme 'doom-city-lights)
 
 ;; If you use `org' and don't want your org files in the default location below,
 ;; change `org-directory'. It must be set before org loads!
@@ -57,5 +57,13 @@
 ;; they are implemented.
 
 (load! "~/.doom.d/smartparens-keys.el")
+
+(after! cider
+  (set-popup-rules!
+   '(("^\\*cider-repl"
+      :side right
+      :width 95
+      :quit nil
+      :ttl nil))))
 
 ;; The End
