@@ -33,11 +33,12 @@
        ;;(emoji +unicode)  ; 🙂
        ;;fill-column       ; a 'fill-column' indicator
        ;;fira-code-mode    ; Fira Code Symbol ligatures
+       ; flycheck-clj-kondo
        hl-todo           ; highlight TODO/FIXME/NOTE/DEPRECATED/HACK/REVIEW
        ;;hydra
        ;;indent-guides     ; highlighted indent columns
        ligatures         ; ligatures and symbols to make your code pretty again
-       ;;minimap           ; show a map of the code on the side
+       minimap           ; show a map of the code on the side
        modeline          ; snazzy, Atom-inspired modeline, plus API
        ;;nav-flash         ; blink cursor line after big motions
        ;;neotree           ; a project drawer, like NERDTree for vim
@@ -94,7 +95,7 @@
        (eval +overlay)     ; run code, run (also, repls)
        ;;gist              ; interacting with github gists
        lookup              ; navigate your code and its documentation
-       lsp
+       (lsp +peek)
        magit             ; a git porcelain for Emacs
        ;;make              ; run make tasks from Emacs
        ;;pass              ; password manager for nerds
@@ -127,7 +128,7 @@
        emacs-lisp          ; drown in parentheses
        ;;erlang            ; an elegant language for a more civilized age
        ;;ess               ; emacs speaks statistics
-       eslint
+       ; eslint
        ;;factor
        ;;faust             ; dsp, but you get to keep your soul
        ;;fsharp            ; ML stands for Microsoft's Language
@@ -145,7 +146,7 @@
        ;;latex             ; writing papers in Emacs has never been so fun
        ;;lean              ; for folks with too much to prove
        ;;ledger            ; be audit you can be
-       lua               ; one-based indices? one-based indices
+       lua                 ; one-based indices? one-based indices
        markdown            ; writing docs for people to ignore
        ;;nim               ; python + lisp at the speed of c
        ;;nix               ; I hereby declare "nix geht mehr!"
@@ -153,7 +154,7 @@
        ;;org               ; organize your plain life in plain text
        ;;php               ; perl's insecure younger brother
        ;;plantuml          ; diagrams for confusing people more
-       ;;purescript        ; javascript, but functional
+       (purescript +lsp)   ; javascript, but functional
        ;;python            ; beautiful is better than ugly
        ;;qt                ; the 'cutest' gui framework ever
        (racket +lsp)       ; a DSL for DSLs
@@ -170,7 +171,7 @@
        ;;swift             ; who asked for emoji variables?
        ;;terra             ; Earth and Moon in alignment for performance.
        web                 ; the tubes
-       yaml              ; JSON, but readable
+       yaml                ; JSON, but readable
        ;;zig               ; C, but simpler
 
        :email
