@@ -7,16 +7,16 @@
  ("C-M-a" . sp-beginning-of-sexp)
  ("C-M-e" . sp-end-of-sexp)
 
- ;("C-<down>" . sp-down-sexp)
- ;("C-<up>"   . sp-up-sexp)
+ ("C-<down>" . sp-down-sexp)
+ ("C-<up>"   . sp-up-sexp)
  ;("M-<down>" . sp-backward-down-sexp)
  ;("M-<up>"   . sp-backward-up-sexp)
 
- ("C-M-f" . sp-forward-sexp)
- ("C-M-b" . sp-backward-sexp)
+ ;("C-M-f" . sp-forward-sexp)
+ ;("C-M-b" . sp-backward-sexp)
 
- ("C-M-n" . sp-next-sexp)
- ("C-M-p" . sp-previous-sexp)
+ ;("C-M-n" . sp-next-sexp)
+ ;("C-M-p" . sp-previous-sexp)
 
  ;("C-S-f" . sp-forward-symbol)
  ;("C-S-b" . sp-backward-symbol)
@@ -31,7 +31,6 @@
  ("C-k"   . sp-kill-hybrid-sexp)
  ("M-k"   . sp-backward-kill-sexp)
  ("C-M-w" . sp-copy-sexp)
- ("C-M-d" . delete-sexp)
 
  ("M-<backspace>" . backward-kill-word)
  ("C-<backspace>" . sp-backward-kill-word)
