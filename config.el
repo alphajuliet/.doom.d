@@ -57,6 +57,7 @@
 ;; they are implemented.
 
 (load! "~/.doom.d/smartparens-keys.el")
+(load! "~/.doom.d/nial/nial-mode.el")
 
 (after! cider
   (set-popup-rules!
