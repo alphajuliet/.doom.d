@@ -58,6 +58,12 @@
 
 (load! "~/.doom.d/smartparens-keys.el")
 (load! "~/.doom.d/nial/nial-mode.el")
+(load! "~/.doom.d/unison-mode-emacs/unisonlang-mode.el")
+
+(add-to-list 'load-path "~/.doom.d/idris2-mode/")
+(load! "~/.doom.d/idris2-mode/idris2-mode.el")
+
+(map! :map vterm-mode-map "<deletechar>" #'vterm-send-delete)
 
 (after! cider
   (set-popup-rules!
