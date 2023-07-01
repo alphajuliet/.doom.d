@@ -1,0 +1,3 @@
+[submodule "unison-mode-emacs"]
+	path = unison-mode-emacs
+	url = ./unison-mode-emacs
