@@ -12,8 +12,8 @@
  ;("M-<down>" . sp-backward-down-sexp)
  ;("M-<up>"   . sp-backward-up-sexp)
 
- ;("C-M-f" . sp-forward-sexp)
- ;("C-M-b" . sp-backward-sexp)
+ ("C-M-f" . sp-forward-sexp)
+ ("C-M-b" . sp-backward-sexp)
 
  ;("C-M-n" . sp-next-sexp)
  ;("C-M-p" . sp-previous-sexp)
@@ -43,6 +43,10 @@
 
  ("C-c ("  . sp-wrap-round)
  ("C-c ["  . sp-wrap-square)
- ("C-c {"  . sp-wrap-curly))
+ ("C-c {"  . sp-wrap-curly)
+
+ ("C-M-;" . flycheck-list-errors)
+ ("C-M-n" . flycheck-next-error)
+ ("C-M-p" . flycheck-previous-error))
 
 ;; The End
