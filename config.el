@@ -60,9 +60,13 @@
 (load! "~/.doom.d/nial/nial-mode.el")
 (load! "~/.doom.d/unison-mode-emacs/unisonlang-mode.el")
 (load! "~/.doom.d/unison-config.el")
+(load! "~/.doom.d/prop-menu.el")
 
-; (add-to-list 'load-path "~/.doom.d/idris2-mode/")
+(add-to-list 'load-path "~/.doom.d/idris2-mode/")
 ; (load! "~/.doom.d/idris2-mode/idris2-mode.el")
+
+; (add-to-list 'load-path (locate-user-emacs-file "idris2-mode"))
+(use-package idris2-mode)
 
 (map! :map vterm-mode-map "<deletechar>" #'vterm-send-delete)
 
